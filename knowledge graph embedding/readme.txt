@@ -1,0 +1,1 @@
+We use all the predications in SemmedDB from 1990 to 2013 to construct our knowledge graph in this work. For graph embedding, the predications which appear more that twice in the database were used for training TransE method.

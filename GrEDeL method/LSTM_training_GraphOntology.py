@@ -11,7 +11,7 @@ import time
 from keras.layers import Dropout
 keras.backend.clear_session()
 def load_data(embedding_dir,training_cases_dir,step_length,GraphEmbedding_length,OntologyEmbedding_length):
-    # load your data using this function
+    # load your data using this function,mainly including: knwoledge graph G,
     relation2vec_G={}
     file=open(embedding_dir+str(GraphEmbedding_length)+"/relation2vec.bern","r")
     line=file.readline()
